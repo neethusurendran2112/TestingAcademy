@@ -2,7 +2,7 @@ package Oct.exe_09102024;
 import java.util.Scanner;
 
 public class Tableprintf {
-    public static void main(String[] args)  
+    public static void main(String[] args)
     {
         int num;
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
