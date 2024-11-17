@@ -7,8 +7,5 @@ public class Lab061 {
         String result = (age > 18 && citizen_ship=="Indian") ? "Allowed to Vote" : "Not Allowed to Vote";
         System.out.println(result);
 
-
-
-
     }
 }
