@@ -1,6 +1,6 @@
 package Tasks;
 
-public class Task0910demoprintf {
+public class Taskdemoprintf {
     public static void main(String[] args)
     {
         int a = 10;

@@ -1,7 +1,7 @@
 package Tasks;
 import java.util.Scanner;
 
-public class Task0910Tableprintf {
+public class TaskTableprintf {
     public static void main(String[] args)
     {
         int num;
