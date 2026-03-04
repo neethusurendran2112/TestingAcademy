@@ -1,7 +1,11 @@
 package Tasks;
 import java.util.Scanner;
 
+<<<<<<<< HEAD:src/Tasks/TaskTableprintf.java
 public class TaskTableprintf {
+========
+public class Task0910Tableprintf {
+>>>>>>>> origin/https/github.com/neethusurendran2112/TestingAcademy/blob/master/src/Oct:src/Tasks/Task0910Tableprintf.java
     public static void main(String[] args)
     {
         int num;

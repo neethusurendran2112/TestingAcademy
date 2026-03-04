@@ -1,6 +1,10 @@
 package Tasks;
 
+<<<<<<<< HEAD:src/Tasks/Taskdemoprintf.java
 public class Taskdemoprintf {
+========
+public class Task0910demoprintf {
+>>>>>>>> origin/https/github.com/neethusurendran2112/TestingAcademy/blob/master/src/Oct:src/Tasks/Task0910demoprintf.java
     public static void main(String[] args)
     {
         int a = 10;
