@@ -1,30 +1,30 @@
 package Javapractice;
 
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class primenum1ton {
     public static void main(String[] args) {
-         int limit;
+        int limit;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        limit = sc.nextInt();
 
-    }
-
-
-    public static <array> array[] genprime (int limit)
-    {
-        int i =1;
-        int factcount=0;
-        for (i=1;i<=limit;i++)
+        for (int i =2;i<=limit;i++)
         {
-           for(int j=2;j<=i;j++)
-            {
-                if(j%2==0)
-                    factcount
-            }
+            boolean Isprime = true;
+          for(int j = 2;j<=i/2;j++) {
+              if (i % j == 0) {
+                  Isprime = false;
+                  break;
+              }
+          }
+          if(Isprime == true)
+              System.out.println(i);
 
+          }
+        }
 
-           {
-               factcount++;
-           }
-        }if (factcount==2)
-            return
 
     }
-}
+
